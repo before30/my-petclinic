@@ -1,4 +1,4 @@
-package cc.before30.backendservice
+package cc.before30.petclinic.backendservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
