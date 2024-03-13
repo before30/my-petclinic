@@ -14,6 +14,8 @@ allprojects {
 
     repositories {
         mavenCentral()
+        maven { url = uri("https://repo.spring.io/snapshot") }
+        maven { url = uri("https://repo.spring.io/milestone") }
     }
 
     tasks.withType<JavaCompile>{
@@ -47,6 +49,9 @@ subprojects{
         implementation("org.springframework.boot:spring-boot-starter")
         implementation("org.jetbrains.kotlin:kotlin-reflect")
         testImplementation("org.springframework.boot:spring-boot-starter-test")
+        implementation("org.springframework.cloud:spring-cloud-dependencies:2023.0.0")
+        implementation("de.codecentric:chaos-monkey-spring-boot:3.1.0")
+
     }
 }
 
