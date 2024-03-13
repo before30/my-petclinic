@@ -10,5 +10,8 @@ plugins{
 }
 
 dependencies {
+    implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.1.0")
+    implementation("org.springframework.cloud:spring-cloud-starter-config:4.1.0")
+    implementation("org.glassfish.jaxb:jaxb-runtime:4.0.5")
 
 }
