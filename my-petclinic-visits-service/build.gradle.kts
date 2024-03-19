@@ -39,4 +39,8 @@ dependencies {
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     implementation(kotlin("stdlib-jdk8"))
+
+    testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter-kotlin:1.0.14")
+    implementation("de.codecentric:chaos-monkey-spring-boot:3.1.0")
+
 }
