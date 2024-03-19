@@ -34,6 +34,9 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     runtimeOnly("com.mysql:mysql-connector-j")
 
+    implementation("io.github.oshai:kotlin-logging-jvm:5.1.1")
+    runtimeOnly("io.micrometer:micrometer-registry-prometheus")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     implementation(kotlin("stdlib-jdk8"))
 }
